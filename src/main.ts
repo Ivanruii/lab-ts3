@@ -25,7 +25,7 @@ function reduce() {
         counter--;
         update();
     } else {
-        alert("Counting in negative is not allowed!");
+        alert("No se pueden introducir valores negativos.");
     }
 }
 
@@ -42,7 +42,7 @@ function setValue() {
             counter = inputValue;
             update();
         } else {
-            alert("The value must be less than 100.");
+            alert("El valor debe de ser menor a 100.");
         }
     }
 }
